@@ -1,13 +1,7 @@
 {
-    "fields": {
-       "project":
-       {
-          "key": "NAD"
-       },
-       "summary": "SUMMARY",
-       "description": "DESC",
-       "issuetype": {
-          "name": "Bug"
-       }
-   }
+    "jql" : "project=NAD & key=JIRA_ID",
+    "startAt" : 0,
+    "maxResults" : 1,
+    "fields" : ["id","key","status"]
 }
+
